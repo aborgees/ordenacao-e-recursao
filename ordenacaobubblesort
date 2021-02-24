@@ -1,0 +1,24 @@
+public class Ordenacao-bubble_sort{
+public static void main(String[] args){
+int vetor[]={2, 4, 3, 1, 6, 8};
+int auxiliar;
+boolean control;
+for(int a=0; a<vetor.length;++a){
+control=true;
+for(b=0;b<(vetor.length-1); ++b){
+if(vetor[a]>vetor[b+1]){
+auxiliar=vetor[b];
+vetor[b]=vetor[b+1];
+vetor[b+1]= auxiliar;
+control=false;
+}
+}
+if(control){
+break;
+}
+}
+fot(int a=0;a<vetor.length;++a){
+System.out.println(vetor[a]+"");
+}
+}
+}
